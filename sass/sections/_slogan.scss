@@ -1,0 +1,32 @@
+.slogan {
+  display: flex;
+  text-transform: uppercase;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url(../images/backgrounds/home.jpg);
+  background-size: cover;
+  background-position: center;
+  &__header {
+    font-size: 72px;
+    color: #fff;
+    &--gold {
+      color: $gold;
+    }
+  }
+  &__call {
+    font-size: $big-font-size;
+    color: #fff;
+  }
+}
+@media (max-width: 992px) {
+  .slogan {
+    &__header {
+      font-size: $very-big-font-size;
+    }
+    &__call {
+      font-size: $normal-font-size;
+    }
+  }
+}
