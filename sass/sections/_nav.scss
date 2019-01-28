@@ -2,6 +2,7 @@ nav {
   width: 100vw;
   height: 80px;
   position: fixed;
+  z-index: 999;
   background: #000;
   margin: 0;
 
@@ -9,15 +10,19 @@ nav {
   label {
     display: none;
   }
+
   ul {
     padding: 0;
     list-style-type: none;
+
     li {
       display: inline-block;
       border-bottom: 4px solid #000;
+
       &:hover {
         border-bottom: 4px solid $gold;
       }
+
       a {
         font-size: $normal-font-size;
         display: inline-block;
@@ -25,13 +30,17 @@ nav {
         padding: 0 10px;
         text-decoration: none;
         color: #fff;
+        text-transform: uppercase;
+        font-weight: 600;
       }
     }
   }
 }
+
 @media (max-width: 992px) {
   nav {
     height: auto;
+
     label {
       margin: 0;
       font-size: 30px;
@@ -42,11 +51,13 @@ nav {
       right: 5px;
       cursor: pointer;
     }
+
     ul {
       li {
         height: auto;
         width: 100%;
         display: block;
+
         a {
           line-height: 40px;
           text-align: center;
@@ -55,11 +66,12 @@ nav {
       }
     }
   }
-  #menu-button:not(:checked) ~ ul {
+
+  #menu-button:not(:checked)~ul {
     display: none;
   }
 
-  #menu-button:checked ~ ul {
+  #menu-button:checked~ul {
     display: block;
 
     li {

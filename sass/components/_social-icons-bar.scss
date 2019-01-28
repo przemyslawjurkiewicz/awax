@@ -1,0 +1,20 @@
+.social-icons-bar {
+    margin: 30px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    &__item {
+        background: $grey;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+        padding: 10px;
+        margin: 2px;
+
+        &:hover {
+            background: $gold;
+        }
+    }
+}

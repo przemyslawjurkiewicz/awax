@@ -8,7 +8,7 @@
 @import 'sass/sections/gallery';
 @import 'sass/components/button';
 @import 'sass/components/menu-slider';
-
+@import 'sass/components/social-icons-bar';
 
 * {
   font-family: $brand-font;
@@ -19,10 +19,6 @@ body {
   margin: 0;
   background: $light;
 }
-
-
-
-
 
 
 .container {
