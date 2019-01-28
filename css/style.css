@@ -666,6 +666,27 @@ nav ul li a {
   text-align: left;
 }
 
+.section__paragraph--small {
+  color: #aeaeae;
+  font-size: 12px;
+  margin: 0;
+}
+
+.section__paragraph--medium {
+  margin: 0;
+  color: #000;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.section__paragraph--price {
+  color: #000;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 40px;
+  font-weight: 800;
+  margin: 10px 0 0;
+}
+
 .section__card {
   padding: 5px;
 }
@@ -677,7 +698,7 @@ nav ul li a {
 
 .section__card--margin {
   background: #fff;
-  padding: 50px 30px 30px;
+  padding: 40px 20px 20px;
   margin: 0 10px;
   border-radius: 5px;
 }
@@ -771,7 +792,7 @@ nav ul li a {
 }
 
 .button {
-  margin: 10px;
+  margin: 20px;
   background: #cb9266;
   border: none;
   border-radius: 10px;
@@ -782,7 +803,7 @@ nav ul li a {
   min-width: 200px;
   height: 45px;
   color: #fff;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 600;
   text-transform: uppercase;
   cursor: pointer;

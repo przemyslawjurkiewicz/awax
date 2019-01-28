@@ -56,6 +56,28 @@
     &--left {
       text-align: left;
     }
+
+    &--small{
+      color: $grey;
+      font-size: $small-font-size;
+      margin: 0;
+    }
+
+    &--medium{
+      margin:0 ;
+      color: #000;
+      font-size: $medium-font-size;
+      text-transform: uppercase;
+    }
+
+    &--price {
+      color: #000;
+      font-family: 'Fira Sans', sans-serif;
+      font-size: 40px;
+      font-weight: 800;
+      margin:10px 0 0;
+    }
+
   }
 
   &__card {
@@ -68,7 +90,7 @@
 
     &--margin {
       background: #fff;
-      padding: 50px 30px 30px;
+      padding: 40px 20px 20px;
       margin: 0 10px;
       border-radius: 5px;
     }
