@@ -637,38 +637,6 @@ nav ul li a {
   }
 }
 
-.button {
-  margin: 10px;
-  background: #cb9266;
-  border: none;
-  border-radius: 10px;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius: 10px;
-  min-width: 200px;
-  height: 45px;
-  color: #fff;
-  font-size: 16px;
-  font-weight: 600;
-  text-transform: uppercase;
-  cursor: pointer;
-}
-
-.button:hover {
-  background: #373737;
-}
-
-* {
-  font-family: "Montserrat", sans-serif;
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  background: #f7f7f7;
-}
-
 .gallery__row {
   display: flex;
 }
@@ -730,6 +698,82 @@ body {
     animation: none;
     height: calc(100% - 10px);
   }
+}
+
+.button {
+  margin: 10px;
+  background: #cb9266;
+  border: none;
+  border-radius: 10px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  min-width: 200px;
+  height: 45px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: #373737;
+}
+
+.menu-slider {
+  margin-bottom: 50px;
+  background: #aeaeae;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+
+.menu-slider__item {
+  margin: 0;
+  line-height: 46px;
+  font-size: 14px;
+  padding: 0 20px;
+  border-left: 1px solid #fff;
+  font-weight: 600;
+  display: inline-block;
+  text-transform: uppercase;
+  border-bottom: 4px solid #aeaeae;
+}
+
+.menu-slider__item--first {
+  border-left: none;
+}
+
+.menu-slider__item:hover {
+  border-bottom: 4px solid #cb9266;
+}
+
+@media (max-width: 992px) {
+  .menu-slider {
+    display: block;
+    height: auto;
+    text-align: center;
+    border-radius: 0;
+  }
+  .menu-slider__item {
+    display: block;
+    border-left: none;
+    border-bottom: 4px solid #fff;
+  }
+}
+
+* {
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #f7f7f7;
 }
 
 .container {
