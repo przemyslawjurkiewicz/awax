@@ -22,12 +22,7 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   text-align: center;
-  &:before,
-  &:after {
-    content: '';
-    display: table;
-    clear: both;
-  }
+ 
   &--flex {
     height: 100%;
     display: flex;

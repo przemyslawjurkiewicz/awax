@@ -610,6 +610,12 @@ nav ul li a {
   border-right: 1px solid #aeaeae;
 }
 
+.section__image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 .section--black {
   background: #000;
 }
@@ -662,12 +668,6 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   text-align: center;
-}
-
-.container:before, .container:after {
-  content: '';
-  display: table;
-  clear: both;
 }
 
 .container--flex {
