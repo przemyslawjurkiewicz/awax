@@ -447,7 +447,7 @@ template {
 }
 
 nav {
-  width: 100%;
+  width: 100vw;
   height: 80px;
   position: fixed;
   background: #000;
@@ -552,16 +552,6 @@ nav ul li a {
   }
 }
 
-* {
-  font-family: "Montserrat", sans-serif;
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  background: #f7f7f7;
-}
-
 .section {
   padding: 50px;
 }
@@ -655,6 +645,16 @@ body {
 
 .button:hover {
   background: #373737;
+}
+
+* {
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #f7f7f7;
 }
 
 .container {
