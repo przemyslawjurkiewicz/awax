@@ -637,9 +637,13 @@ nav ul li a {
 
 .section__content {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: flex-start;
   flex-wrap: wrap;
+}
+
+.section__content--space-around {
+  justify-content: space-around;
 }
 
 .section__content--column {
@@ -686,6 +690,10 @@ nav ul li a {
 
 .section--black {
   background: #000;
+}
+
+.section--white {
+  background: #fff;
 }
 
 .section--team {
@@ -833,6 +841,7 @@ nav ul li a {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .social-icons-bar__item {

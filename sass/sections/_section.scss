@@ -28,15 +28,20 @@
 
   &__content {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: flex-start;
     flex-wrap: wrap;
+
+    &--space-around{
+      justify-content: space-around;
+    }
 
     &--column {
       flex-direction: column;
       justify-content: flex-start;
       align-items: center;
     }
+
   }
 
   &__paragraph {
@@ -78,6 +83,10 @@
 
   &--black {
     background: #000;
+  }
+
+  &--white {
+    background: #fff;
   }
 
   &--team {
