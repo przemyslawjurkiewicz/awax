@@ -5,7 +5,10 @@
 @import 'sass/sections/nav';
 @import 'sass/sections/slogan';
 @import 'sass/sections/section';
+@import 'sass/sections/gallery';
 @import 'sass/components/button';
+@import 'sass/components/manu-slider';
+
 
 * {
   font-family: $brand-font;
@@ -17,12 +20,17 @@ body {
   background: $light;
 }
 
+
+
+
+
+
 .container {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
   text-align: center;
- 
+
   &--flex {
     height: 100%;
     display: flex;

@@ -1,0 +1,44 @@
+.menu-slider {
+    margin-bottom: 50px;
+    background: $grey;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+  
+    &__item {
+      margin: 0;
+      line-height: 46px;
+      font-size: $medium-font-size;
+      padding: 0 20px;
+      border-left: 1px solid #fff;
+      font-weight: 600;
+      display: inline-block;
+      text-transform: uppercase;
+      border-bottom: 4px solid $grey;
+  
+      &--first {
+        border-left: none;
+      }
+  
+      &:hover {
+        border-bottom: 4px solid $gold;
+      }
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .menu-slider {
+      display: block;
+      height: auto;
+      text-align: center;
+      border-radius: 0;
+  
+      &__item {
+        display: block;
+        border-left: none;
+        border-bottom: 4px solid #fff;
+      }
+    }
+  }

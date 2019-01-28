@@ -29,7 +29,13 @@
       display: flex;
       justify-content: space-around;
       align-items: flex-start;
+      &--column{
+        flex-direction: column;
+        justify-content: flex-start;
+      align-items: center;
+      }
     }
+
     &__paragraph {
       color: $grey;
       font-size: $medium-font-size;
@@ -39,7 +45,7 @@
       }
       &--left {
         text-align: left;
-      }
+              }
     }
   
     &__card {
