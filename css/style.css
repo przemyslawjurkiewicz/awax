@@ -615,7 +615,7 @@ nav ul li a {
   margin-bottom: 10px;
   font-size: 24px;
   text-transform: uppercase;
-  font-weight: 900;
+  font-weight: 700;
 }
 
 .section__header--white {
@@ -624,6 +624,10 @@ nav ul li a {
 
 .section__header--dark {
   color: #fff;
+}
+
+.section__header--normal {
+  font-size: 16px;
 }
 
 .section__header-paragraph {
@@ -668,6 +672,11 @@ nav ul li a {
   margin: 0;
 }
 
+.section__paragraph--big {
+  font-size: 24px;
+  margin: 0;
+}
+
 .section__paragraph--medium {
   margin: 0;
   color: #000;
@@ -675,7 +684,7 @@ nav ul li a {
   text-transform: uppercase;
 }
 
-.section__paragraph--price {
+.section__paragraph--number {
   color: #000;
   font-family: 'Fira Sans', sans-serif;
   font-size: 40px;
@@ -685,6 +694,14 @@ nav ul li a {
 
 .section__paragraph--black {
   color: #000;
+}
+
+.section__paragraph--gold {
+  color: #cb9266;
+}
+
+.section__paragraph--white {
+  color: #fff;
 }
 
 .section__card {

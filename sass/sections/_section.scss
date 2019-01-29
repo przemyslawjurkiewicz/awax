@@ -5,7 +5,7 @@
     margin-bottom: 10px;
     font-size: $big-font-size;
     text-transform: uppercase;
-    font-weight: 900;
+    font-weight: 700;
 
     &--white {
       color: #000;
@@ -13,6 +13,10 @@
 
     &--dark {
       color: #fff;
+    }
+
+    &--normal {
+      font-size: $normal-font-size;
     }
   }
 
@@ -57,6 +61,11 @@
       margin: 0;
     }
 
+    &--big {
+      font-size: $big-font-size;
+      margin: 0;
+    }
+
     &--medium {
       margin: 0;
       color: #000;
@@ -64,7 +73,7 @@
       text-transform: uppercase;
     }
 
-    &--price {
+    &--number {
       color: #000;
       font-family: 'Fira Sans', sans-serif;
       font-size: 40px;
@@ -74,6 +83,14 @@
 
     &--black {
       color: #000;
+    }
+
+    &--gold {
+      color: $gold;
+    }
+
+    &--white {
+      color: #fff;
     }
   }
 
