@@ -662,6 +662,12 @@ nav ul li a {
   align-items: center;
 }
 
+.section__content--column-strech {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+}
+
 .section__paragraph {
   color: #aeaeae;
   font-size: 14px;
@@ -670,6 +676,7 @@ nav ul li a {
 
 .section__paragraph--left {
   text-align: left;
+  margin-left: 5px;
 }
 
 .section__paragraph--small {
@@ -854,6 +861,7 @@ nav ul li a {
   justify-content: center;
   align-items: center;
   height: 50px;
+  cursor: pointer;
 }
 
 .menu-slider__item {
@@ -893,7 +901,7 @@ nav ul li a {
 .social-icons-bar {
   margin: 30px 0;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
 }
@@ -909,7 +917,7 @@ nav ul li a {
 }
 
 .social-icons-bar__item--margin {
-  margin: 0 20px;
+  margin-left: 20px;
 }
 
 .social-icons-bar__item:hover {

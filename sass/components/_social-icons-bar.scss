@@ -1,7 +1,7 @@
 .social-icons-bar {
     margin: 30px 0;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
 
@@ -14,16 +14,16 @@
         padding: 10px;
         margin: 2px;
 
-        &--margin{
-            margin:0 20px;
+        &--margin {
+            margin-left: 20px;
         }
 
         &:hover {
             background: $gold;
         }
     }
-    
-    &--no-margin{
+
+    &--no-margin {
         margin: 0;
     }
 }
