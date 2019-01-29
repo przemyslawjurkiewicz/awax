@@ -14,8 +14,16 @@
         padding: 10px;
         margin: 2px;
 
+        &--margin{
+            margin-left: 20px;
+        }
+
         &:hover {
             background: $gold;
         }
+    }
+    
+    &--no-margin{
+        margin: 0;
     }
 }
