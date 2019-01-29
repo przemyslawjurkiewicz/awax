@@ -653,6 +653,7 @@ nav ul li a {
 
 .section__content--align-start {
   align-items: flex-start;
+  justify-content: flex-start;
 }
 
 .section__content--column {
@@ -741,6 +742,12 @@ nav ul li a {
 
 .section--team {
   background-image: url(../images/backgrounds/team.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.section--map {
+  background-image: url(../images/backgrounds/map.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -902,7 +909,7 @@ nav ul li a {
 }
 
 .social-icons-bar__item--margin {
-  margin-left: 20px;
+  margin: 0 20px;
 }
 
 .social-icons-bar__item:hover {
